@@ -38,7 +38,7 @@ ReadNcdf <- function (fpath, fname, printFlag = FALSE) {
   #======================================================================
   
   # Call the NetCDF library, set the local file path, and open the user selected .nc file
-  library("RNetCDF")
+  library(RNetCDF)
   setwd(fpath)
   nc <- open.nc(fname)
   

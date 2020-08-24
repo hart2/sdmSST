@@ -48,15 +48,18 @@
 
 # ****** User Inputs Section ***********              # User inputs entered here
 
-path = "C:/Users/vtsontos/Documents/R"                # Enter the data directory path
-name = "os2_l2b2013001_17342_17343.nc"                # Enter the filename of the source NetCDF data file
+path = "~/SST"                # Enter the data directory path
+
+# Enter the filename of the source NetCDF data file
+name = "ncAmerica2010/20101230-JPL-L4UHblend-NCAMERICA-v01-fv02-RTO_SST_Ad.nc"
+
 printFlag = TRUE                                      # Set to TRUE or FALSE if file content listing info is desired
 nOutputElements = 10                                  # number of VarData array elements to output per data variable
 nOutputRows = 20                                      # number of data rows output to screen before pause and user prompt
 
 # ************** MAIN ********************** 
 
-source('~/R/funcReadNcdf.r')                          # compiles the function from its source code .r file
+source('~/github/sdmSST/funcReadNcdf.R')              # compiles the function from its source code .r file
 ReadNcdf(path, name, printFlag)                       # calls the function and passes user defined arguements
 
 
