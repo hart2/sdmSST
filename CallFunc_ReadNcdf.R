@@ -1,4 +1,4 @@
-#  SCRIPT: CallFunc_ReadNcdf.r
+#  SCRIPT: CallFunc_ReadNcdf.R
 #
 #  DESCRIPTION
 #   - Illustrates how the ReadNcdf function is called from within a simple R script to generically read all elements
@@ -7,7 +7,7 @@
 #   - Illustrations of how to access the range of data structures are provided.
 #
 #  DEPENDENCIES  
-#  - Invokes the function ReadNcdf()      source file: funcReadNcdf.r
+#  - Invokes the function ReadNcdf()      source file: funcReadNcdf.R
 #  - This function uses the "RNetCDF" package, v1.6 1-2 , based on NetCDF 3+ library#
 #
 #  USAGE
